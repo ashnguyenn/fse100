@@ -83,15 +83,8 @@ function homeScreen(){
 }
 
 function execShapesGame(){
-  // hide home screen buttons
-  button1.hide();
-  button2.hide();
-  button3.hide();
-  
-  background("red");
-  homeScreenShown = false;
-  
-  homeButton.display();  
+    // open shapes game
+  window.location.replace("https://norah-r.github.io/Pumpkin-Game/"); 
 }
 
 function execMatchingGame(){
